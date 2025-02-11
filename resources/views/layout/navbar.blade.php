@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+<nav class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="Logo.png" alt="Icarus" width="35" height="35" class="d-inline-block align-text-top">
