@@ -32,10 +32,24 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
                 </div>
             </div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
+            <div class="col-3">
+                <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
+                <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
+                <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <circle-progress value="25" max="100" anticlockwise='true'></circle-progress>
+            </div>
         </div>
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-circle-progress/dist/circle-progress.min.js" type="module"></script>
 @endsection
