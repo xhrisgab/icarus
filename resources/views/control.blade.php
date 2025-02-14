@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-3">
                 <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
                 <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
@@ -45,7 +45,10 @@
                 </div>
             </div>
             <div class="col-3">
-                <circle-progress value="25" max="100" anticlockwise='true'></circle-progress>
+                <div class="text-center">
+                    <h5 class="" style="color: #F27244;">Bateria</h5>
+                    <circle-progress value="25" max="100" anticlockwise='true'></circle-progress>
+                </div>
             </div>
         </div>
 
