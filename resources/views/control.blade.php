@@ -28,23 +28,95 @@
         <div class="row mt-3">
             <div class="col-3">
                 <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
-                <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
+                <div class="container my-auto" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
                 </div>
             </div>
             <div class="col-3">
-                <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
-                <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
+                <div class="row justify-content-between">
+                    <div class="col-6">
+                        <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Acelerometro</label>
+                    </div>
+                    <div class="col-6 my-auto">
+                        <button class="button2" >Ver detalles</button>
+                    </div>
+                </div>
+                <div class="container" style="border: 2px solid #F27244; border-radius:20px; background:#F2B441;">
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="X" class="label1 text-center px-2 py-1">X</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="20.51" disabled>
+                        </div>
+                    </div>
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="Y" class="label1 text-center px-2 py-1">Y</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="0.15" disabled>
+                        </div>
+                    </div>
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="Z" class="label1 text-center px-2 py-1">Z</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="10.48" disabled>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-3">
-                <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
-                <div class="container" style="border: 2px solid #F27244; border-radius:5%; background:#F2B441;">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
+                <div class="row justify-content-between">
+                    <div class="col-6">
+                        <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Giroscopio</label>
+                    </div>
+                    <div class="col-6 my-auto">
+                        <button class="button2" >Ver detalles</button>
+                    </div>
+                </div>
+                <div class="container" style="border: 2px solid #F27244; border-radius:20px; background:#F2B441;">
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="X" class="label1 text-center px-2 py-1">X</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="4.58" disabled>
+                        </div>
+                    </div>
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="Y" class="label1 text-center px-2 py-1">Y</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="20.47" disabled>
+                        </div>
+                    </div>
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-2">
+                            <label for="Z" class="label1 text-center px-2 py-1">Z</label>
+                        </div>
+                        <div class="col-8">
+                            <input class="text1 text-center py-1" type="text" value="2.36" disabled>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-3">
+
+                <div class="row justify-content-between">
+                    <div class="col tfecha">
+                        <h6>Hora sistema</h6>
+                        <h6>Fecha sistema</h6>
+                    </div>
+                    <div class="col tfecha text-end">
+                        <h6>{{ date('h:i a') }}</h6>
+                        <h6>{{ date('d.M.Y') }}</h6>
+                    </div>
+                </div>
+
                 <div class="text-center">
                     <h5 class="" style="color: #F27244;">Bateria</h5>
                     <circle-progress value="25" max="100" anticlockwise='true'></circle-progress>
