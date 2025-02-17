@@ -97,18 +97,18 @@
 }
 
 .circle-progress-value {
-	stroke-width: 6px;
-	stroke: hsl(100, 100%, 60%);
+	stroke-width: 10px;
+	stroke: #36BFBF;
 	stroke-dasharray: 0.6 3;
 }
 .circle-progress-circle {
-	stroke-width: 6px;
-	stroke: #ddd;
-	stroke-dasharray: 0.6 3;
-	stroke-dashoffset: 1.6;
+	stroke-width: 0px;
+	stroke: #F2B441;
+	stroke-dasharray: 5 3;
+	stroke-dashoffset: 30;
 }
 .circle-progress-text {
 	font-family: "Gotham Rounded Light";
-	fill: hsl(100, 81%, 55%);
-	font-size: 26px;
+	fill: #36BFBF;
+	font-size: 50px;
 }

@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Body Control --}}
-    <div class="container-fluid mt-4 p-2" style="background-color:#051926;" >
+    <div class="container-fluid mt-4 p-5" style="background-color:#051926;" >
         <div class="row">
             <div class="col-3 content-justify-center">
                 <h5 class='text-center' style="color: #F2B441">Puerto Serial:</h5>
@@ -29,7 +29,14 @@
             <div class="col-3">
                 <label class="my-3" for="Logs" style="color: #F27244; font-weight: bold;">Estado - Logs</label>
                 <div class="container my-auto" style="border: 2px solid #F27244; border-radius:20px; background:#F2B441;">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam asperiores est, tempore error explicabo, nihil nobis eos provident aliquam ut dicta illo temporibus eius doloremque sit laboriosam exercitationem rerum?</p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-3">
@@ -119,12 +126,12 @@
 
                 <div class="text-center">
                     <h5 class="" style="color: #F27244;">Bateria</h5>
-                    <circle-progress class="circle-progress-circle circle-progress-value circle-progress-value" value="25" max="100" anticlockwise='true'></circle-progress>
+                    <circle-progress class="circle-progress circle-progress-value circle-progress-circle circle-progress-text" value="75" max="100" anticlockwise='true' ></circle-progress>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row mt-5">
             <div class="col-3">
                 <div class="row content-justify-between">
                     <div class="col-6">
@@ -157,10 +164,10 @@
                 <div class="container" style="border: 2px solid #1F6A73; border-radius:20px; background:#1F6A73;">
                     <div class="row py-2 justify-content-center">
                         <div class="col-2">
-                            <label for="X" class="label2 text-center px-2 py-1">Atm</label>
+                            <label for="X" class="label2 text-center px-2 py-1">atm</label>
                         </div>
                         <div class="col-8">
-                            <input class="text2 text-center py-1" type="text" value="1.01" disabled>
+                            <input class="text2 text-center py-1" type="text" value="0.98" disabled>
                         </div>
                     </div>
                 </div>
